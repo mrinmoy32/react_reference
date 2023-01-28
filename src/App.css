@@ -1,6 +1,15 @@
-.App {
-  text-align: center;
+.newElement{
+  color: green;
 }
+
+
+*{
+  margin-left: 1vw;
+}  /* Mrinmoy */
+
+/* .App {
+  text-align: center;
+} */
 
 .App-logo {
   height: 40vmin;
