@@ -19,6 +19,7 @@ import UseEffect from './components/UseEffect';
 import UseStateWithPrevState from './components/UseStateWithPrevState';
 import A from './components/A';
 import Vikas from './components/Vikas';
+import Destrucuring_Array_Objects from './components/Destrucuring_Array_Objects';
 
 // create element using  JSX
 // const name = <h2>Welcome to React</h2>
@@ -95,12 +96,8 @@ class App extends React.Component{
         <UseStateWithPrevState/>
         <A/>
         <Vikas/>
-        
-
+        <Destrucuring_Array_Objects library="React.js"/>
       </div>
-      
-      
-
     );
   }
 }

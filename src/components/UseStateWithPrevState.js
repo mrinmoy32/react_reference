@@ -6,12 +6,7 @@ function UseStateWithPrevState() {
     const [counter, setcounter] = useState(0);
 
     const incrementBy10 = ()=>{
-      
-        for(let i=0; i<10; i++) {
-          setcounter(precount => precount +1)
-        }
-        
-        
+         setcounter(precount => precount +10)
     };
 
 
