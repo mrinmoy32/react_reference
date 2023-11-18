@@ -20,6 +20,10 @@ import UseStateWithPrevState from './components/UseStateWithPrevState';
 import A from './components/A';
 import Vikas from './components/Vikas';
 import Destrucuring_Array_Objects from './components/Destrucuring_Array_Objects';
+import UseReducerHooks from './components/UseReducerHooks';
+import UseReducerDispatchActions from './components/UseReducerDispatchActions';
+
+import useRefHook1 from './components/useRefHook1'
 
 // create element using  JSX
 // const name = <h2>Welcome to React</h2>
@@ -69,7 +73,8 @@ class App extends React.Component{
   render(){
     const numbers = [3, 4, 5, 6];
     return (
-      
+  
+      <>
       <div className='App'>
         <Routing/>
         <Header name='Mrinmoy' last='Pal'>
@@ -96,8 +101,14 @@ class App extends React.Component{
         <UseStateWithPrevState/>
         <A/>
         <Vikas/>
-        <Destrucuring_Array_Objects library="React.js"/>
+        <Destrucuring_Array_Objects library="React.js" />
+        <UseReducerHooks />
+        <UseReducerDispatchActions/>
+        <useRefHook1 />
+
       </div>
+      
+      </>
     );
   }
 }
